@@ -1,0 +1,61 @@
+/*any device with a minimun screen width of between 361px and 768px. Devices 
+in the form of ipads will be styled with this form*/
+
+body {
+    width: 100%;
+    border: 2px solid black;
+    background-color: lightgreen;
+    font-size: 1em;
+}
+
+footer figure {
+    display: block;
+    margin: auto;
+}
+
+footer, header {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figcaption p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+header img {
+    order: -1;
+}
+
+h3 {
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    order: -1;
+}
+
+h4 {
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    order: 2;
+}
+
+p {
+    margin: 0 5px;
+}
+
+h5 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}

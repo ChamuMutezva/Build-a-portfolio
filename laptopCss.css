@@ -1,0 +1,70 @@
+/*any device with a minimun screen width of 769. Devices 
+in the form of laptops and desktps will be styled with this form*/
+
+body {
+    width: 100%;
+    border: 2px solid black;
+    font-size: 1em;
+    background-color: rgb(109, 45, 54);
+    transition: ease-out;
+}
+
+footer figure {
+    display: block;
+    margin: auto;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+figcaption,
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+header img {
+    order: -1;
+}
+
+h3 {
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    order: -1;
+}
+
+h4 {
+    margin: auto;
+    text-decoration: underline;
+    text-align: center;
+    order: 2;
+}
+
+p {
+    margin: 0 5px;
+}
+
+h5 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
