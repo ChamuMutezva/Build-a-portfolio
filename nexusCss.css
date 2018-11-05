@@ -1,5 +1,12 @@
 /*any device with a maximum screen width of 360. Devices 
 in the form of nexus and all hand held cellphones will be styled with this form*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
 body {
     width: 100%;
     border: 2px solid black;
@@ -30,6 +37,7 @@ img {
     margin: auto;
     border-radius: 50%;
     overflow-x: hidden;
+    width: 95%;
 }
 
 header img {
@@ -39,6 +47,7 @@ header img {
 h3 {
     text-decoration: underline;
     text-align: center;
+    margin: auto;
     /* order: 6;*/
 }
 
@@ -46,6 +55,8 @@ h4 {
     text-decoration: underline;
     text-align: center;
     order: -1;
+    margin: auto;
+    padding: 10px 0 20px 0;
 }
 a:hover{
     color: violet;
@@ -53,7 +64,7 @@ a:hover{
     }
 
 p {
-    margin: 0 5px;
+    margin: 0 35px;
 }
 
 h5 {
