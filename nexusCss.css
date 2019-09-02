@@ -8,6 +8,7 @@ in the form of nexus and all hand held cellphones will be styled with this form*
 }
 
 body {
+    overflow-x: hidden;
     width: 100%;
     border: 2px solid black;
     font-size: 1em;
